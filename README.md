@@ -1,6 +1,6 @@
 # gm_YOLOX
-Object detection for Garry's Mod! Train your own YOLOX variant, or use an existing one, and run it real-time inside the game. Works on Windows, but can be altered to work on other platforms that have a working ONNX Runtime, on Windows it uses DML as the execution provider, but could use CUDA for example under Linux AND Windows(fuck NVIDIA, your SDK's suck).
-At the moment, this module supports only YOLOX models, hence the very original name.
+Object detection for Garry's Mod! Train your own YOLOX variant, or use an existing one, and run it real-time inside the game. Works on Windows, but can be altered to work on other platforms that have a working ONNX Runtime, on Windows it uses DML as the execution provider, but could use CUDA for example under Linux AND Windows (fuck you NVIDIA, working with your developer *tools* is a nightmare).
+This module was meant only for YOLOX models, hence the very original name.
 
 ## Features
 - Multithreaded (sort of)
