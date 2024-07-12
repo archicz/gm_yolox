@@ -97,6 +97,7 @@ YOLOX.GetObjects()
 ## Example code
 - This example code creates a RenderTarget into which we draw the current scene at a specified FrameRate
 - The detections are then shown on top of the RenderTarget with their labels (Coco dataset)
+- A pretrained YOLOX Tiny on the Coco dataset model is available in Releases under the tag Model, just put it in `<GARRYSMOD ROOT>`
 ```lua
 local rtWidth = 416
 local rtHeight = 416
